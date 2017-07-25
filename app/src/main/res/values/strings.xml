@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Data1</string>
+    <string name="affected_ear">Affected Ear</string>
+    <string name="email">Email</string>
+    <string name="other_conditions">Other Conditions</string>
+    <string name="dob_dd_mm_year">dob DD/MM/YEAR</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="user_profile">User Profile</string>
+    <string name="save">Save</string>
+    <string name="menieres_and_vertigo_dairy">Menieres and Vertigo Dairy</string>
+    <string name="view_doctors">View Doctors</string>
+    <string name="view_profile">View Profile</string>
+    <string name="textview">TextView</string>
+</resources>
