@@ -14,7 +14,7 @@ import android.util.Log;
 public class MyDBHandler extends SQLiteOpenHelper {
 
     //database version to identify the database uniquely. So everytime you make changes to the databse, you increment the version
-    private static final int DATABASE_VERSION = 35;
+    private static final int DATABASE_VERSION = 36;
 
     // database name
     private static final String DATABASE_NAME = "doctors.db"  ;

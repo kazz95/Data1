@@ -3,7 +3,7 @@ package com.carol.data1;
 /**
  * Created by kazz95 on 12/07/2017.
  */
-
+// Doctor class
 public class Doctor {
 
 
