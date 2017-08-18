@@ -2,6 +2,7 @@ package com.carol.data1;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -25,10 +26,16 @@ public class MainActivity extends AppCompatActivity {
         specialityText = (EditText) findViewById(R.id.specialityText);
         phoneText = (EditText) findViewById(R.id.phoneText);
         emailText = (EditText) findViewById(R.id.emailText);
-        drDisplay = (TextView) findViewById(R.id.drDisplay);
+       drDisplay = (TextView) findViewById(R.id.drDisplay);
 
         dbHandler = new MyDBHandler(this, null, null, 1);
-        printDatabase();
+        try{
+            printDatabase();
+        } catch(Exception e)
+        {
+            Log.d("Log", "error" );
+        }
+
     }
 
         // we pass 4 variables and the constuctor is expecting 4

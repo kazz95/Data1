@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.util.Date;
+
 public class Main2Activity extends AppCompatActivity {
 
 
@@ -46,6 +48,13 @@ public class Main2Activity extends AppCompatActivity {
         tvdisplay.setText(dbString);
 
     }
+    public void printDatabase(Date d) {
+        //convert contents of database to string
+        String dbString = dbHandler.displayProfile();
+
+        tvdisplay.setText(dbString + d);
+
+    }
 
     public void addProfile(View view){
         //create object of movies class passing the movie name we input and converting to string
@@ -68,5 +77,7 @@ public class Main2Activity extends AppCompatActivity {
         //print database once deleted
         printDatabase();
     }
+
+
 
 }

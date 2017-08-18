@@ -137,9 +137,9 @@ public class MyDBHandler extends SQLiteOpenHelper {
         //ContentValues values = new ContentValues();
 
         db.execSQL("UPDATE " + TABLE_DOCTORS + " SET " + COLUMN_DOCTORNAME + "=\"" + doctorname  + "\";" );
-       // db.execSQL("UPDATE " + TABLE_DOCTORS + " SET " + COLUMN_SPECIALITY + "=\"" + speciality  + "\";" );
-     //   db.execSQL("UPDATE " + TABLE_DOCTORS + " SET " + COLUMN_PHONE + "=\"" + phone  + "\";" );
-        //db.execSQL("UPDATE " + TABLE_DOCTORS + " SET " + COLUMN_EMAIL + "=\"" + email  + "\";" );
+       /* db.execSQL("UPDATE " + TABLE_DOCTORS + " SET " + COLUMN_SPECIALITY + "=\"" + speciality  + "\";" );
+     *   db.execSQL("UPDATE " + TABLE_DOCTORS + " SET " + COLUMN_PHONE + "=\"" + phone  + "\";" );
+        */db.execSQL("UPDATE " + TABLE_DOCTORS + " SET " + COLUMN_EMAIL + "=\"" + email  + "\";" );
 
     }
 
